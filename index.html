@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zenón - Gestión de Inversiones</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <h1>Zenón</h1>
+        <p>Gestión sencilla de tus inversiones en criptomonedas</p>
+    </header>
+    <main>
+        <section>
+            <h2>Tus inversiones</h2>
+            <ul id="inversiones"></ul>
+        </section>
+        <section>
+            <h2>Agregar nueva inversión</h2>
+            <input type="text" id="nombre" placeholder="Nombre del activo (ej: BTC)" />
+            <input type="number" id="monto" placeholder="Monto (€ o $)" />
+            <button onclick="agregarInversion()">Agregar</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
